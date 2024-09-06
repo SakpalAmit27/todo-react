@@ -1,9 +1,14 @@
-
+import '../src/styles.css'
 
 const App = () => {
   return (
     <div>
-      hello world
+      <form className='new-item-form'>
+        <div className='form-row'>
+          <label>new item</label>
+          <input type="text" id='item' />
+        </div>
+      </form>
     </div>
   )
 }
